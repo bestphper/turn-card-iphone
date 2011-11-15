@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MyCardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 431}}";
+			sepNavSelRange = "{459, 0}";
+			sepNavVisRange = "{0, 484}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MyCardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1092}}";
+			sepNavSelRange = "{675, 0}";
+			sepNavVisRange = "{217, 1432}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MyCard */ = {
+		activeExec = 0;
+		executables = (
+			218873F2146A1EA800CC306F /* MyCard */,
+		);
+	};
+	218873F2146A1EA800CC306F /* MyCard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MyCard;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	21887406146A1ECB00CC306F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	21887407146A1ECB00CC306F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	21887419146A23B800CC306F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MyCardViewController.m */;
+		name = "MyCardViewController.m: 38";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 400;
+	};
+	21A4B6A9146A4B470018F220 /* Card.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 611}}";
+			sepNavSelRange = "{742, 0}";
+			sepNavVisRange = "{171, 857}";
+		};
+	};
+	21BD31E4146AA71D0074B22C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MyCard-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/rzdrzd/workspace/workspace2/MyCard/MyCard-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	21BD31E5146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MyCard_Prefix.pch */;
+		name = "MyCard_Prefix.pch: 9";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	21BD31E6146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MyCardAppDelegate.h */;
+		name = "MyCardAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	21BD31E7146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MyCardAppDelegate.m */;
+		name = "MyCardAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 217;
+	};
+	21BD31E8146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MyCardViewController.h */;
+		name = "MyCardViewController.h: 20";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 0;
+	};
+	21BD31E9146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A4B6A9146A4B470018F220 /* Card.m */;
+		name = "Card.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	21BD31EA146AA71D0074B22C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A4B6A9146A4B470018F220 /* Card.m */;
+		name = "Card.m: 31";
+		rLen = 0;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 171;
+	};
+	28D7ACF60DDB3853001CB0EB /* MyCardViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 431}}";
+			sepNavSelRange = "{382, 0}";
+			sepNavVisRange = "{0, 389}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* MyCardViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 845}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{400, 803}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 218873F2146A1EA800CC306F /* MyCard */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MyCard */;
+		codeSenseManager = 21887407146A1ECB00CC306F /* Code sense */;
+		executables = (
+			218873F2146A1EA800CC306F /* MyCard */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					804,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 342519872;
+			PBXWorkspaceStateSaveDate = 342519872;
+		};
+		perUserProjectItems = {
+			21887419146A23B800CC306F /* PBXTextBookmark */ = 21887419146A23B800CC306F /* PBXTextBookmark */;
+			21BD31E4146AA71D0074B22C /* PlistBookmark */ = 21BD31E4146AA71D0074B22C /* PlistBookmark */;
+			21BD31E5146AA71D0074B22C /* PBXTextBookmark */ = 21BD31E5146AA71D0074B22C /* PBXTextBookmark */;
+			21BD31E6146AA71D0074B22C /* PBXTextBookmark */ = 21BD31E6146AA71D0074B22C /* PBXTextBookmark */;
+			21BD31E7146AA71D0074B22C /* PBXTextBookmark */ = 21BD31E7146AA71D0074B22C /* PBXTextBookmark */;
+			21BD31E8146AA71D0074B22C /* PBXTextBookmark */ = 21BD31E8146AA71D0074B22C /* PBXTextBookmark */;
+			21BD31E9146AA71D0074B22C /* PBXTextBookmark */ = 21BD31E9146AA71D0074B22C /* PBXTextBookmark */;
+			21BD31EA146AA71D0074B22C /* PBXTextBookmark */ = 21BD31EA146AA71D0074B22C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 21887406146A1ECB00CC306F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MyCard_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 431}}";
+			sepNavSelRange = "{181, 0}";
+			sepNavVisRange = "{0, 181}";
+		};
+	};
+}

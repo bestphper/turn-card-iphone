@@ -1,0 +1,565 @@
+TMyCard
+v7
+r0
+t342519877.765253
+cCheck dependencies
+cCpResource build/Debug-iphoneos/MyCard.app/ResourceRules.plist /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/Info.plist MyCard-Info.plist
+cCompileXIB /Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib
+cCompileXIB /Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib
+cCpResource build/Debug-iphoneos/MyCard.app/1.jpg images/1.jpg
+cCpResource build/Debug-iphoneos/MyCard.app/2.jpg images/2.jpg
+cProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/main.o /Users/rzdrzd/workspace/workspace2/MyCard/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardAppDelegate.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardViewController.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/Card.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/main.o /Users/rzdrzd/workspace/workspace2/MyCard/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard normal armv6
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardAppDelegate.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardViewController.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/Card.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard normal armv7
+cCreateUniversalBinary /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard normal "armv6 armv7"
+cGenerateDSYMFile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app.dSYM /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard
+cProcessProductPackaging "/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision" /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision
+cTouch /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+cProcessProductPackaging /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent
+cCodeSign /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+
+N/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision
+c000000004EB7452E0000000000001C42
+t1320633646
+s7234
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.h
+c000000004EBA278E00000000000001DC
+t1320822670
+s476
+i<Foundation/Foundation.h>
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m
+c000000004EBA2EAE000000000000040E
+t1320824494
+s1038
+i"Card.h"
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.h
+c000000004EBA2FFF00000000000001E4
+t1320824831
+s484
+i<UIKit/UIKit.h>
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m
+c000000004EBA300C0000000000000A98
+t1320824844
+s2712
+i"MyCardAppDelegate.h"
+i"MyCardViewController.h"
+i"Card.h"
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.h
+c000000004EBA34B70000000000000185
+t1320826039
+s389
+i<UIKit/UIKit.h>
+i"Card.h"
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m
+c000000004EBA352000000000000007B2
+t1320826144
+s1970
+i"MyCardViewController.h"
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib
+c000000004EB9E7270000000000004E1D
+t1320806183
+s19997
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib
+c000000004EBA34DA00000000000032FC
+t1320826074
+s13052
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch
+c000000004EB9E72700000000000000B5
+t1320806183
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+t1320827077
+s442
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app.dSYM
+t1320827077
+s102
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/1.jpg
+t1320827075
+s6578
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/2.jpg
+t1320827075
+s7280
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/Info.plist
+t1320827075
+s773
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MainWindow.nib
+t1320827075
+s1679
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard
+t1320827077
+s52712
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCardViewController.nib
+t1320827075
+s3016
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/PkgInfo
+t1320827075
+s8
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/ResourceRules.plist
+t1320807401
+s485
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision
+t1320807404
+s7234
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent
+t1320827077
+s402
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/Card.o
+t1320827077
+s43296
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard
+t1320827077
+s24040
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard.LinkFileList
+c000000004EBA38C300000000000001F1
+t1320827075
+s497
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardAppDelegate.o
+t1320827077
+s50588
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardViewController.o
+t1320827077
+s42964
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/main.o
+t1320827077
+s6440
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/Card.o
+t1320827077
+s43128
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard
+t1320827077
+s24040
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard.LinkFileList
+c000000004EBA38C300000000000001F1
+t1320827075
+s497
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardAppDelegate.o
+t1320827077
+s50504
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardViewController.o
+t1320827077
+s42868
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/main.o
+t1320827077
+s6424
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/images/1.jpg
+c000000004EBA176500000000000019B2
+t1320818533
+s6578
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/images/2.jpg
+c000000004EBA19670000000000001C70
+t1320819047
+s7280
+
+N/Users/rzdrzd/workspace/workspace2/MyCard/main.m
+c000000004EB9E7270000000000000160
+t1320806183
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch.gch
+t1320827076
+s9983704
+
+N/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch.gch
+t1320827076
+s10442456
+
+N/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-chkkvfleqcwgykdfrgplybbhhqxa/MyCard_Prefix.pch.gch
+t1320807403
+s9983704
+
+N/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-gysctimvfchijtfxezuqhyibzyxr/MyCard_Prefix.pch.gch
+t1320807404
+s10442456
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+NMyCard-Info.plist
+c000000004EB9ED10000000000000036A
+t1320807696
+s874
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies342519875#342519875#0(288"[WARN]iOS deployment target '4.3' for architecture 'armv6' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.[WARN]iOS deployment target '4.3' for architecture 'armv7' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.2(22@137"iOS deployment target '4.3' for architecture 'armv6' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.342519875#18446744073709551615#0#0(1@0"0(22@137"iOS deployment target '4.3' for architecture 'armv7' and variant 'normal' is greater than the maximum value '4.2.99' for the iOS 4.2 SDK.342519875#18446744073709551615#0#0(1@0"0(0#1#0"7021787118479564800#0"0#
+
+CCodeSign /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+s342519877.639740
+e342519877.765216
+r0
+xCodeSign
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+o/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app: object file format invalid or unsuitable
+lSLF07#2@40"CodeSign build/Debug-iphoneos/MyCard.app342519877#342519877#0(166"/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app: object file format invalid or unsuitableCommand /usr/bin/codesign failed with exit code 11(4@49"Command /usr/bin/codesign failed with exit code 1342519877#18446744073709551615#0#0(1@0"0(0#0#73"/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app8607972160#645"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: yang jingyu (36Y9XFXUF2)" --resource-rules=/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/ResourceRules.plist --entitlements /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app1#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/Card.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342519877.114517
+e342519877.220183
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/Card.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:44: warning: method possibly missing a [super dealloc] call
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: incomplete implementation of class 'Card'
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithContent' not found
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithImage' not found
+lSLF07#2@64"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342519877#342519877#0(469"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:44: warning: method possibly missing a [super dealloc] call/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: incomplete implementation of class 'Card'/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithContent' not found/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithImage' not found4(22@46"Method possibly missing a [super dealloc] call342519877#0#117#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#44#0#44#0#46"method possibly missing a [super dealloc] call0(22@41"Incomplete implementation of class 'Card'342519877#117#112#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-initWithContent' not found342519877#229#121#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#35"method definition for '*' not found0(22@48"Method definition for '-initWithImage' not found342519877#350#119#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#35"method definition for '*' not found0(0#0#56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m8604202592#1733"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/Card.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardAppDelegate.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342519877.023421
+e342519877.114415
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardAppDelegate.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m342519877#342519877#0(0"0(0#0#69"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m8605371328#1759"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardAppDelegate.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardViewController.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342519877.089653
+e342519877.179912
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardViewController.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m342519877#342519877#0(0"0(0#0#72"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m8604848736#1765"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCardViewController.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/main.o /Users/rzdrzd/workspace/workspace2/MyCard/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342519877.022437
+e342519877.089552
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/main.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/rzdrzd/workspace/workspace2/MyCard/main.m342519877#342519877#0(0"0(0#0#48"/Users/rzdrzd/workspace/workspace2/MyCard/main.m8607865312#1725"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/main.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/Card.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342519877.434735
+e342519877.526951
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/Card.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:44: warning: method possibly missing a [super dealloc] call
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: incomplete implementation of class 'Card'
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithContent' not found
+o/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithImage' not found
+lSLF07#2@64"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342519877#342519877#0(469"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:44: warning: method possibly missing a [super dealloc] call/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: incomplete implementation of class 'Card'/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithContent' not found/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m:46: warning: method definition for '-initWithImage' not found4(22@46"Method possibly missing a [super dealloc] call342519877#0#117#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#44#0#44#0#46"method possibly missing a [super dealloc] call0(22@41"Incomplete implementation of class 'Card'342519877#117#112#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-initWithContent' not found342519877#229#121#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#35"method definition for '*' not found0(22@48"Method definition for '-initWithImage' not found342519877#350#119#0(6@56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m342517294#46#0#46#0#35"method definition for '*' not found0(0#0#56"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m8604359904#1733"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/Card.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/Card.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardAppDelegate.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342519877.253910
+e342519877.434641
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardAppDelegate.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m342519877#342519877#0(0"0(0#0#69"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m8609383584#1759"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardAppDelegate.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardAppDelegate.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardViewController.o /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342519877.343164
+e342519877.449011
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardViewController.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m342519877#342519877#0(0"0(0#0#72"/Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m8605351744#1765"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/Classes/MyCardViewController.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCardViewController.o0#
+
+CCompileC build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/main.o /Users/rzdrzd/workspace/workspace2/MyCard/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342519877.180233
+e342519877.343072
+r1
+xCompileC
+xbuild/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/main.o
+x/Users/rzdrzd/workspace/workspace2/MyCard/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/rzdrzd/workspace/workspace2/MyCard/main.m342519877#342519877#0(0"0(0#0#48"/Users/rzdrzd/workspace/workspace2/MyCard/main.m8603197856#1725"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -include /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch -c /Users/rzdrzd/workspace/workspace2/MyCard/main.m -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib
+s342519875.268040
+e342519875.908808
+r1
+xCompileXIB
+x/Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib342519875#342519875#0(0"0(0#0#56"/Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib8608171616#538"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MainWindow.nib /Users/rzdrzd/workspace/workspace2/MyCard/MainWindow.xib --sdk /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib
+s342519875.268900
+e342519875.920278
+r1
+xCompileXIB
+x/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MyCardViewController.
+o/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'card' outlet of 'File's Owner' is connected to 'Card' but 'card' is no longer defined on MyCardViewController.
+o/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'ii' outlet of 'File's Owner' is connected to 'Control' but 'ii' is no longer defined on MyCardViewController.
+o/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:17: warning: The 'Touch Up Inside' event of 'Control' is connected to the 'tt' selector of 'File's Owner', but 'tt' is no longer defined on 'MyCardViewController'.
+lSLF07#2@35"CompileXIB MyCardViewController.xib342519875#342519875#0(859"/* com.apple.ibtool.document.warnings *//Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MyCardViewController./Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'card' outlet of 'File's Owner' is connected to 'Card' but 'card' is no longer defined on MyCardViewController./Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:-1: warning: The 'ii' outlet of 'File's Owner' is connected to 'Control' but 'ii' is no longer defined on MyCardViewController./Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib:17: warning: The 'Touch Up Inside' event of 'Control' is connected to the 'tt' selector of 'File's Owner', but 'tt' is no longer defined on 'MyCardViewController'.4(22@115"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MyCardViewController.342519875#18446744073709551615#0#0(6@66"/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib342518874#18446744073709551615#0#18446744073709551615#0#0"0(22@115"The 'card' outlet of 'File's Owner' is connected to 'Card' but 'card' is no longer defined on MyCardViewController.342519875#18446744073709551615#0#0(6@66"/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib342518874#18446744073709551615#0#18446744073709551615#0#0"0(22@114"The 'ii' outlet of 'File's Owner' is connected to 'Control' but 'ii' is no longer defined on MyCardViewController.342519875#18446744073709551615#0#0(6@66"/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib342518874#18446744073709551615#0#18446744073709551615#0#0"0(22@150"The 'Touch Up Inside' event of 'Control' is connected to the 'tt' selector of 'File's Owner', but 'tt' is no longer defined on 'MyCardViewController'.342519875#18446744073709551615#0#0(6@66"/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib342518874#17#0#17#0#0"0(0#0#66"/Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib8608048640#558"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCardViewController.nib /Users/rzdrzd/workspace/workspace2/MyCard/MyCardViewController.xib --sdk /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/MyCard.app/1.jpg images/1.jpg
+s342519875.908896
+e342519875.915300
+r1
+xCpResource
+xbuild/Debug-iphoneos/MyCard.app/1.jpg
+ximages/1.jpg
+lSLF07#2@17"Copy images/1.jpg342519875#342519875#0(0"0(0#0#54"/Users/rzdrzd/workspace/workspace2/MyCard/images/1.jpg8608048032#455"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rzdrzd/workspace/workspace2/MyCard/images/1.jpg /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app0#
+
+CCpResource build/Debug-iphoneos/MyCard.app/2.jpg images/2.jpg
+s342519875.909941
+e342519875.919985
+r1
+xCpResource
+xbuild/Debug-iphoneos/MyCard.app/2.jpg
+ximages/2.jpg
+lSLF07#2@17"Copy images/2.jpg342519875#342519875#0(0"0(0#0#54"/Users/rzdrzd/workspace/workspace2/MyCard/images/2.jpg8607957664#455"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rzdrzd/workspace/workspace2/MyCard/images/2.jpg /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app0#
+
+CCpResource build/Debug-iphoneos/MyCard.app/ResourceRules.plist /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s342500201.572251
+e342500201.596640
+r1
+xCpResource
+xbuild/Debug-iphoneos/MyCard.app/ResourceRules.plist
+x/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@91"Copy /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist342500201#342500201#0(0"0(0#0#86"/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist7311142388610462720#487"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app0#
+
+CCreateUniversalBinary /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard normal "armv6 armv7"
+s342519877.563232
+e342519877.570585
+r1
+xCreateUniversalBinary
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/MyCard.app/MyCard normal "armv6 armv7"342519877#342519877#0(0"0(0#0#53"/Users/rzdrzd/workspace/workspace2/MyCard/armv6 armv78609401216#516"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard -output /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard0#
+
+CGenerateDSYMFile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app.dSYM /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard
+s342519877.570675
+e342519877.608574
+r1
+xGenerateDSYMFile
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app.dSYM
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/MyCard.app.dSYM build/Debug-iphoneos/MyCard.app/MyCard342519877#342519877#0(0"0(0#0#80"/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard8608356000#359"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/usr/bin/dsymutil /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/MyCard -o /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app.dSYM0#
+
+CLd /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard normal armv6
+s342519877.220273
+e342519877.253808
+r1
+xLd
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard
+xnormal
+xarmv6
+lSLF07#2@121"Link /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard342519877#342519877#0(0"0(0#0#0"8609647392#856"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -filelist /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv6/MyCard0#
+
+CLd /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard normal armv7
+s342519877.527041
+e342519877.563030
+r1
+xLd
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard
+xnormal
+xarmv7
+lSLF07#2@121"Link /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard342519877#342519877#0(0"0(0#0#0"8608948000#856"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -filelist /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/Objects-normal/armv7/MyCard0#
+
+CProcessInfoPlistFile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/Info.plist MyCard-Info.plist
+s342519875.240127
+e342519875.267947
+r1
+xProcessInfoPlistFile
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/Info.plist
+xMyCard-Info.plist
+lSLF07#2@25"Process MyCard-Info.plist342519875#342519875#0(0"0(0#0#59"/Users/rzdrzd/workspace/workspace2/MyCard/MyCard-Info.plist29555065834897524#564"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyCard-Info.plist -genpkginfo /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/ResourceRules.plist -o /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/Info.plist0#
+
+CProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342519875.920454
+e342519877.022341
+r1
+xProcessPCH
+x/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch.gch
+xMyCard_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile MyCard_Prefix.pch342519875#342519877#0(0"0(0#0#59"/Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch8604556832#1621"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -c /Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch -o /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-aarxzxfoltcrbsakfozaogycgblp/MyCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342519875.921399
+e342519876.962866
+r1
+xProcessPCH
+x/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch.gch
+xMyCard_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile MyCard_Prefix.pch342519875#342519876#0(0"0(0#0#59"/Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch8602803168#1621"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -c /Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch -o /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-bafxkuqweslqdifhjcjehrovogyo/MyCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-chkkvfleqcwgykdfrgplybbhhqxa/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342500202.506233
+e342500203.958715
+r1
+xProcessPCH
+x/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-chkkvfleqcwgykdfrgplybbhhqxa/MyCard_Prefix.pch.gch
+xMyCard_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile MyCard_Prefix.pch342500202#342500203#0(0"0(0#0#59"/Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch8608168768#1621"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv6 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -c /Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch -o /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-chkkvfleqcwgykdfrgplybbhhqxa/MyCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-gysctimvfchijtfxezuqhyibzyxr/MyCard_Prefix.pch.gch MyCard_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342500202.507253
+e342500204.047185
+r1
+xProcessPCH
+x/var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-gysctimvfchijtfxezuqhyibzyxr/MyCard_Prefix.pch.gch
+xMyCard_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile MyCard_Prefix.pch342500202#342500204#0(0"0(0#0#59"/Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch8610021824#1621"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv LANG en_US.US-ASCII    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-generated-files.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-own-target-headers.hmap -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-all-target-headers.hmap -iquote /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard-project-headers.hmap -F/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos -I/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/include -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources/armv7 -I/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/DerivedSources -c /Users/rzdrzd/workspace/workspace2/MyCard/MyCard_Prefix.pch -o /var/folders/xX/xXRAmrLxFeSCti5uVo1JBE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCard_Prefix-gysctimvfchijtfxezuqhyibzyxr/MyCard_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision" /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision
+s342500204.833829
+e342500204.834970
+r1
+xProcessProductPackaging
+x/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision" build/Debug-iphoneos/MyCard.app/embedded.mobileprovision342500204#342500204#0(0"0(0#0#98"/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision8614583808#423"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rzdrzd/Library/MobileDevice/Provisioning Profiles/A43AF1F0-1D04-406F-AF11-7E53CF688242.mobileprovision" -o /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent
+s342519877.611667
+e342519877.639560
+r1
+xProcessProductPackaging
+x/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent
+lSLF07#2@169"ProcessProductPackaging /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent342519877#342519877#0(0"0(0#0#101"/Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent8604137792#426"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/rzdrzd/workspace/workspace2/MyCard/build/MyCard.build/Debug-iphoneos/MyCard.build/MyCard.xcent0#
+
+CTouch /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+s342519877.608769
+e342519877.611583
+r1
+xTouch
+x/Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app
+lSLF07#2@79"Touch /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app342519877#342519877#0(0"0(0#0#0"8603154368#263"    cd /Users/rzdrzd/workspace/workspace2/MyCard    setenv PATH "/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rzdrzd/workspace/workspace2/MyCard/build/Debug-iphoneos/MyCard.app0#
+
